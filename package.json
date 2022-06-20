@@ -1,0 +1,28 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/my-cli.js",
+  "bin": {
+    "my-cli": "./bin/my-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "inquirer": "^8.0.0",
+    "minimist": "^1.2.6",
+    "ora": "^4.0.3",
+    "puppeteer": "^14.4.1",
+    "request": "^2.88.2",
+    "semver": "^7.3.7",
+    "yargs": "^17.5.1"
+  },
+  "engines": {
+    "node": ">=12.21.0"
+  }
+}
